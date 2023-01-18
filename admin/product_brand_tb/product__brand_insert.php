@@ -16,6 +16,6 @@ values ('''$get_star_brane_id','$get_star_brane_name')";
   echo $sql . "<br>" . $e->getMessage();
 }
  
-$conn = null;
+$conn = null;//อันนี้ลองแก้
  
 ?>
